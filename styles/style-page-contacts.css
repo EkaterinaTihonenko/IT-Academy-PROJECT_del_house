@@ -1,5 +1,5 @@
 header {
-   background-image: url("/images/images-page-about-us/image-bg-page-about-us.jpg");
+   background-image: url("../images/images-page-about-us/image-bg-page-about-us.jpg");
    background-size: cover;
    background-position: 100% 30%;
    background-repeat: no-repeat;

@@ -2,13 +2,13 @@
 
 @font-face {
    font-family: "EB Garamond", serif;
-   src: url("fonts/Garamond/EBGaramond-Bold.ttf");
-   src: url("fonts/Garamond/EBGaramond-Regular.ttf");
+   src: url("../fonts/Garamond/EBGaramond-Bold.ttf");
+   src: url("../fonts/Garamond/EBGaramond-Regular.ttf");
 }
 
 @font-face {
    font-family: "Roboto", sans-serif;
-   src: url("fonts/Roboto/Roboto-Regular.ttf");
+   src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
 body {
@@ -148,7 +148,7 @@ button {
 }
 
 .logo-img {
-   background-image: url("/images/logo_DH_STUDIO.png");
+   background-image: url("../images/logo_DH_STUDIO.png");
    background-repeat: no-repeat;
    width: 150px;
    height: 150px;
@@ -267,8 +267,8 @@ button {
    right: 0;
    height: 50vh;
    width: 50%;
-   background-image: url("/images/project3.png"), -o-linear-gradient(285deg, transparent 5%, #3b3b3b 15%, #191919);
-   background-image: url("/images/project3.png"), linear-gradient(165deg, transparent 5%, #3b3b3b 15%, #191919);
+   background-image: url("../images/project3.png"), -o-linear-gradient(285deg, transparent 5%, #3b3b3b 15%, #191919);
+   background-image: url("../images/project3.png"), linear-gradient(165deg, transparent 5%, #3b3b3b 15%, #191919);
    display: grid;
    text-align: center;
    -webkit-box-align: center;

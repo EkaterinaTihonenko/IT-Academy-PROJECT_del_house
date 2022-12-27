@@ -50,9 +50,9 @@
 
 .header-content {
    background-image: -o-linear-gradient(285deg, transparent 50%, #191919bd 75%, #191919 80%),
-      url("/images/header_bg_dizayn_interera.jpg");
+      url("../images/header_bg_dizayn_interera.jpg");
    background-image: linear-gradient(165deg, transparent 50%, #191919bd 75%, #191919 80%),
-      url("/images/header_bg_dizayn_interera.jpg");
+      url("../images/header_bg_dizayn_interera.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -110,11 +110,11 @@ h1 {
    border: 1px solid #888;
    width: 50%;
    height: 50%;
-   background-image: url("/images/project.png"), url("/images/project2.png"),
+   background-image: url("../images/project.png"), url("../images/project2.png"),
       -webkit-gradient(linear, left top, left bottom, from(#191919), color-stop(#232323), to(#333333));
-   background-image: url("/images/project.png"), url("/images/project2.png"),
+   background-image: url("../images/project.png"), url("../images/project2.png"),
       -o-linear-gradient(top, #191919, #232323, #333333);
-   background-image: url("/images/project.png"), url("/images/project2.png"),
+   background-image: url("../images/project.png"), url("../images/project2.png"),
       linear-gradient(to bottom, #191919, #232323, #333333);
 }
 
@@ -181,7 +181,7 @@ h1 {
 }
 
 .wrapper-img-text {
-   background-image: url("/images/header_text_INTERIOR\ DESIGN.png");
+   background-image: url("../images/header_text_INTERIOR\ DESIGN.png");
    height: 27%;
    width: 30%;
    background-repeat: no-repeat;
