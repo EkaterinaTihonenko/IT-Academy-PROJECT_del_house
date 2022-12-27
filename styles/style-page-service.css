@@ -1,0 +1,236 @@
+.header-wrapper-page {
+   background-image: url("/images/images-page-services/images-bg-page-services.jpg");
+}
+
+.header-content-page>h2{
+   font-family: "Roboto", sans-serif;
+}
+
+ul > li:before {
+   content: "-";
+}
+
+.section-price {
+   font-family: "Roboto", sans-serif;
+   text-align: start;
+}
+
+.section-price-text > img {
+   z-index: -1;
+}
+
+h2 {
+   font-size: 1.7rem;
+   font-family: "Caveat", cursive;
+   text-align: center;
+}
+
+.section-rates {
+   padding: 3% 0;
+}
+
+.section-cards {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 0.5%;
+   margin: 1%;
+}
+
+.section-card {
+   border: 1px solid #fff;
+   padding: 2%;
+   background-color: #202020;
+   border-bottom: 4px solid #5347f8;
+}
+
+.section-card-text {
+   text-align: start;
+   padding: 5%;
+}
+
+.section-how-we-work > p {
+   text-align: start;
+}
+
+.section-wrapper-video > video {
+   height: 50vh;
+   width: 90%;
+   -o-object-fit: cover;
+      object-fit: cover;
+   border: 4px solid transparent;
+   border-bottom: transparent;
+   border-left: transparent;
+   border-right: transparent;
+   -o-border-image: -o-linear-gradient(right, #3b3b3b 25%, #7a797a 25% 50%, #3b3b3b 50% 75%, #7a797a 75%) 1/ 1/ 0 stretch;
+      border-image: -webkit-gradient(linear, right top, left top, color-stop(25%, #3b3b3b), color-stop(25%, #7a797a), color-stop(50%, #3b3b3b), color-stop(75%, #7a797a)) 1/ 1/ 0 stretch;
+      border-image: linear-gradient(to left, #3b3b3b 25%, #7a797a 25% 50%, #3b3b3b 50% 75%, #7a797a 75%) 1/ 1/ 0 stretch;
+}
+
+.section-warranty-wrapper-slider {
+   width: 70vw;
+   height: 500px;
+   position: relative;
+   margin: 0 auto;
+}
+
+.warranty-slider {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   z-index: 1;
+}
+.warranty-slider > img {
+   height: 100%;
+   margin: 0 0 0 -2%;
+}
+
+.showing {
+   opacity: 1;
+   z-index: 2;
+}
+
+.cards-warranty,
+.section-payment-procedure {
+   font-size: 0.9rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 4%;
+}
+
+.section-card > svg {
+   padding: 2%;
+}
+
+.section-payment-procedure {
+   text-align: start;
+   gap: 2%;
+}
+
+.section-payment-procedure-list > li:before {
+   content: "35%";
+   margin: 0 2%;
+}
+
+.section-payment-procedure-list > li:nth-child(3):before {
+   content: "30%";
+}
+
+.section-deadlines > p {
+   padding: 0 20%;
+}
+
+.section-deadlines-content {
+   display: none;
+   border: 2px solid rgb(255, 255, 255);
+   background-color: #d8d8d8;
+   color: #202020;
+   font-weight: 700;
+   text-align: center;
+   margin: 0 20%;
+}
+
+.section-deadlines-content > table {
+   width: 100%;
+}
+
+.accardeon-content-show {
+   display: block !important;
+}
+
+@media screen and (max-width: 1024px) {
+   body {
+      font-size: 0.8rem;
+   }
+
+   .section-rates > .section-cards {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 10%;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   h2,
+   h3,
+   p {
+      margin: 0.5rem;
+   }
+
+   h2{
+      font-size: 1.4rem;
+   }
+
+   .section-wrapper-video > video {
+      height: 30vh;
+   }
+
+   .section-warranty-wrapper-slider {
+      height: 300px;
+   }
+
+   .section-payment-procedure {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .section-deadlines-content {
+      margin: 0 2%;
+   }
+}
+
+@media screen and (max-width: 580px) {
+   .section-cards {
+      padding: 0;
+      margin: 2% 0;
+   }
+
+   .section-warranty-wrapper-slider {
+      height: 250px;
+      margin: 3% auto;
+   }
+}
+
+@media screen and (max-width: 475px) {
+   .section-cards {
+      padding: 0;
+      margin: 2% 0;
+   }
+
+   .logo-img {
+      display: none;
+   }
+
+   .logo {
+      display: block;
+   }
+
+   .section-warranty-wrapper-slider {
+      height: 250px;
+      margin: 3% auto;
+   }
+
+   .section-rates > .section-cards,
+   .cards-warranty {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 0 2%;
+   }
+
+   .section-card-text {
+      padding: 2%;
+   }
+
+   .warranty-slider {
+      margin-top: 10%;
+   }
+
+   .section-warranty-wrapper-slider {
+      height: 200px;
+   }
+
+   .section-deadlines > p {
+      padding: 0 2%;
+   }
+
+   
+}

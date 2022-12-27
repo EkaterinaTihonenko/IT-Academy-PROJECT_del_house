@@ -1,0 +1,61 @@
+header {
+   background-image: url("/images/images-page-about-us/image-bg-page-about-us.jpg");
+   background-size: cover;
+   background-position: 100% 30%;
+   background-repeat: no-repeat;
+}
+
+.header-content-page {
+   padding: 0 30%;
+}
+
+section{
+   border: 4px solid transparent;
+   border-top: transparent;
+   border-left: transparent;
+   border-right: transparent;
+   -o-border-image: -o-linear-gradient(right, #3b3b3b 25%, #7a797a 25% 50%, #3b3b3b 50% 75%, #7a797a 75%) 1/ 1/ 0 stretch;
+      border-image: -webkit-gradient(linear, right top, left top, color-stop(25%, #3b3b3b), color-stop(25%, #7a797a), color-stop(50%, #3b3b3b), color-stop(75%, #7a797a)) 1/ 1/ 0 stretch;
+      border-image: linear-gradient(to left, #3b3b3b 25%, #7a797a 25% 50%, #3b3b3b 50% 75%, #7a797a 75%) 1/ 1/ 0 stretch;
+}
+
+.section-wrapper {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: space-evenly;
+       -ms-flex-pack: space-evenly;
+           justify-content: space-evenly;
+}
+
+address{
+   text-align: start;
+}
+
+@media screen and (max-width: 1024px) {
+   .section-wrapper {
+      display: block;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+   }
+
+  address>div{
+   margin:0 4%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+body{
+   font-size: 0.9rem;
+}
+
+.header-content-page {
+   padding: 0 20%;
+}
+
+h2{
+   font-size: 1.1rem;
+   padding: 1% 15%;
+}
+}
