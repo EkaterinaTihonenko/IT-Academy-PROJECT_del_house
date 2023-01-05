@@ -12,6 +12,7 @@
 }
 
 body {
+   height: 100%;
    margin: 0;
    padding: 0;
    -webkit-box-sizing: border-box;
@@ -19,6 +20,11 @@ body {
    background-color: #191919;
    color: #fff;
    font-family: "Roboto", sans-serif;
+}
+
+*, :after, :before {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 a,
@@ -123,6 +129,7 @@ button {
 .header-wrapper,
 .header-wrapper-page {
    width: 100%;
+   max-width: 100vw;
 }
 
 .header-wrapper-page {
@@ -148,7 +155,7 @@ button {
 }
 
 .logo-img {
-   background-image: url("../images/logo_DH_STUDIO.png");
+   background-image: url("./images/logo_DH_STUDIO.png");
    background-repeat: no-repeat;
    width: 150px;
    height: 150px;

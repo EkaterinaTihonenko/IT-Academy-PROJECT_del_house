@@ -106,7 +106,7 @@ h1 {
 .modal-content-completion-sending {
    background-color: #191919;
    margin: auto;
-   padding: 20px;
+   padding:40px;
    border: 1px solid #888;
    width: 50%;
    height: 50%;
@@ -573,7 +573,7 @@ h1 {
    }
 
    .modal-content > form {
-      padding: 10% 10%;
+      padding: 10% 0;
    }
 
    .modal-content-completion-sending {

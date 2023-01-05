@@ -9,10 +9,10 @@ btnOpen.addEventListener('click', () => {
    clickCounter = clickCounter + 1;
    if (clickCounter % 2 === 0) {
       mobileMenu.style.display = 'none';
-      btnOpen.innerHTML = '<use xlink:href="/icons/sprite.svg#open-btn"> </use>';
+      btnOpen.innerHTML = '<use xlink:href="../icons/sprite.svg#open-btn"> </use>';
    } else {
       mobileMenu.style.display = 'block';
-      btnOpen.innerHTML = '<use xlink:href="/icons/sprite.svg#close-btn"> </use>';
+      btnOpen.innerHTML = '<use xlink:href="../icons/sprite.svg#close-btn"> </use>';
    };
 
 });
