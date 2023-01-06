@@ -278,7 +278,7 @@ button {
 
 .mobile-dropdown-menu > nav {
    position: absolute;
-   top: 10vh;
+   top: 15vh;
    right: 0;
    height: 50vh;
    width: 50%;
@@ -662,6 +662,10 @@ iframe {
 }
 
 @media screen and (max-width: 540px) {
+   .phone > a {
+      font-size: 0.7rem;
+   }
+
    .logo-img {
       left: 5%;
       top: 3%;
