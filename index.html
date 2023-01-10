@@ -77,18 +77,23 @@
          <div class="header-content">
             <h1>роскошный дизайн<br>интерьера в Del HOUSE</h1>
             <h3>Мы создаем уникальные проекты любой сложности<br> на высоком уровне качества!</h3>
-            <button><a id="button-modal" href="#">Расчет стоимости</a></button>
+            <button id="button-modal">Расчет стоимости</button>
             <div id="modal" class="modal">
                <div class="modal-content">
                   <span class="close">&times;</span>
                   <h2>Рассчитать стоимость</h2>
                   <p>Наш менеджер перезвонит вам в течение 10 минут</p>
-                  <form>
-                     <input type="text" class="form-input" id="user" placeholder="Имя" required="required" minlength="3"
-                        maxlength="30">
-                     <input type="tel" class="form-input" id="phone" placeholder="Телефон" required="required"
-                        minlength="9" maxlength="18" />
-                     <button><a id="button-modal-send">Отправить</a></button>
+                  <form action="#" id="form" class="form">
+                     <div class="form-group">
+                        <input class="form-input" type="text" name="name" placeholder="Имя" pattern="[а-яА-ЯёЁ]+"
+                           required />
+                     </div>
+                     <div class="form-group">
+                        <input class="form-input" type="tel" name="tel" placeholder="Телефон"
+                           pattern="^(\+375|80)(29|25|44|33)(\d{3})(\d{2})(\d{2})$" required />
+                     </div>
+                     <button type="submit" id="button" name="button" class="btn-form">
+                        Отправить</button>
                   </form>
                </div>
                <div class="modal-content-completion-sending">
@@ -882,6 +887,6 @@
       <p>Все права защищены.</p>
       <p>&copy; 2022 <a href="#">Политика конфидициальности</a></p>
    </div>
-   <script src="script.js"></script>
+   <script src="./script.js"></script>
    <script src="./script/script-page-home.js"></script>
 </body>

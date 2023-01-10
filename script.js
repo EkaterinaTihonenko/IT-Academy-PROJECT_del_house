@@ -26,7 +26,6 @@ for (let i = 0; i < button.length; i = i + 1) {
 
    button[i].addEventListener('mouseout', () => {
       button[i].classList.toggle('btnHover');
-
    });
 };
 
