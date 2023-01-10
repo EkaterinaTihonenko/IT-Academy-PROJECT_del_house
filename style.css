@@ -270,7 +270,7 @@ button {
 
 .mobile-dropdown-menu > nav {
    position: absolute;
-   top: 15vh;
+   top: 12vh;
    right: 0;
    height: 50vh;
    width: 50%;
@@ -532,6 +532,10 @@ iframe {
       margin: 0 2% 0 0;
    }
 
+   .mobile-dropdown-menu > nav {
+      top: 9.7vh;
+   }
+
    section,
    footer {
       padding: 3% 6%;
@@ -539,6 +543,10 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+   .mobile-dropdown-menu > nav {
+      top: 10vh;
+   }
+
    .logo-img {
       width: 120px;
       height: 120px;
@@ -608,6 +616,10 @@ iframe {
       height: 12vh;
    }
 
+   .mobile-dropdown-menu > nav {
+      top: 12vh;
+   }
+
    .logo-img {
       display: none;
    }
@@ -647,7 +659,7 @@ iframe {
    }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 581px) {
    .section-projects-cards {
       grid-template-columns: repeat(1, 1fr);
    }
@@ -685,6 +697,10 @@ iframe {
 }
 
 @media screen and (max-width: 412px) {
+   .mobile-dropdown-menu > nav {
+      top: 15vh;
+   }
+
    .header-wrapper-navigation {
       -webkit-box-pack: end;
       -ms-flex-pack: end;
