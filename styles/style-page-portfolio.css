@@ -122,10 +122,6 @@
    .header-content-page > p {
       padding: 0 10%;
    }
-
-   .section-projects-card-img > img {
-      height: 25vh;
-   }
 }
 
 @media screen and (max-width: 576px) {
@@ -135,10 +131,6 @@
 
    .section-projects-cards {
       display: block !important;
-   }
-
-   .section-projects-card-img > img {
-      height: 35vh;
    }
 }
 

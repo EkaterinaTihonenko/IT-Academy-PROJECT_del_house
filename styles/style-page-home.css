@@ -815,10 +815,6 @@ form > .form-group > input[type="tel"]:valid {
       margin: 15% 0;
    }
 
-   .section-projects-card-img > img {
-      height: 30vh;
-   }
-
    iframe {
       width: 320px;
    }
